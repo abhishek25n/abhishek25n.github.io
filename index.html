@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio |N.Abhishek</title>
+    <title>Your Name | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navbar -->
     <header class="navbar">
         <div class="container">
-            <h1 class="logo">N.Abhishek<span>.dev</span></h1>
+            <h1 class="logo">Your<span>Name</span></h1>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
@@ -21,56 +23,90 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
-            <h2>Hello, I'm</h2>
-            <h1>N.Abhishek</h1>
-            <p>Aspiring Full-Stack Developer & CS Engineering Student</p>
-            <a href="#projects" class="cta-button">See My Work</a>
+            <div class="hero-content">
+                <h2>Welcome, I'm</h2>
+                <h1>Your Name</h1>
+                <p>Full-Stack Developer | CS Engineer | Tech Enthusiast</p>
+                <a href="#projects" class="cta-button">Explore My Work</a>
+            </div>
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I am a passionate Computer Science Engineering student with a focus on full-stack development. I love building web applications, exploring new technologies, and solving challenging problems.</p>
-            <p>Skills: HTML, CSS, JavaScript, React, Node.js, MongoDB, Python, and more.</p>
+            <div class="about-content">
+                <p>
+                    I am a Computer Science Engineering student with a passion for building web applications and solving real-world problems.
+                    With expertise in front-end and back-end development, I create efficient and user-friendly solutions using modern technologies.
+                </p>
+                <ul class="skills">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                    <li>Python</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project-card">
-                <h3>Project 1: Portfolio Website</h3>
-                <p>Description of the project and tools used.</p>
-                <a href="#" target="_blank">View Project</a>
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Project 1">
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio site to showcase my skills and projects.</p>
+                    <a href="#" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Project 2">
+                    </div>
+                    <h3>E-Commerce App</h3>
+                    <p>An online shopping platform with a cart, payments, and admin panel.</p>
+                    <a href="#" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Project 3">
+                    </div>
+                    <h3>Weather App</h3>
+                    <p>A real-time weather forecasting app using APIs.</p>
+                    <a href="#" target="_blank" class="project-link">View Project</a>
+                </div>
             </div>
-            <div class="project-card">
-                <h3>Project 2: E-commerce App</h3>
-                <p>Description of the project and tools used.</p>
-                <a href="#" target="_blank">View Project</a>
-            </div>
-            <!-- Add more projects here -->
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me for collaborations or just to say hi!</p>
+            <h2>Contact Me</h2>
+            <p>Have a project in mind? Let’s connect and create something amazing!</p>
             <form>
-                <input type="text" placeholder="N.Abhishek" required>
-                <input type="email" placeholder="abhisheknomula@gmail.com" required>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
                 <textarea placeholder="Your Message" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2024 N.Abhishek | GRIET </p>
+            <p>© 2024 Your Name. All rights reserved.</p>
         </div>
     </footer>
 </body>
